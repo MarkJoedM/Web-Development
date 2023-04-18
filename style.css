@@ -1,0 +1,245 @@
+/* Global Styles */
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Home Section Styles */
+#home {
+  height: 100%;
+  background-image: url(htbg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.home-heading {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.home-subheading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home-btn {
+  font-size: 1.2rem;
+  padding: 0.8rem 2.5rem;
+  margin-top: 2rem;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-btn:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* About Section Styles */
+#about {
+  background-color: #f4f4f4;
+}
+
+.about-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Services Section Styles */
+#services {
+  background-color: #333;
+  color: black;
+}
+
+
+.services-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  
+}
+
+.services-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.services-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Contact Section Styles */
+#contact {
+  background-color: #f4f4f4;
+}
+
+.contact-details {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-details p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+  .contact-form button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #555;
+  }
+  /* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  
+  .footer .social-icons {
+    margin-top: 20px;
+  }
+  
+  .footer .social-icons a {
+    display: inline-block;
+    color: #fff;
+    background-color: #555;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .footer .social-icons a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar .navbar-brand img {
+      height: 50px;
+    }
+  
+    .navbar-nav {
+      margin-top: 20px;
+    }
+  
+    .navbar-nav li {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-right: 0;
+    }
+  
+    .jumbotron {
+      margin-top: 80px;
+    }
+  
+    .about-img {
+      margin-bottom: 40px;
+    }
+  
+    .about-text {
+      margin-bottom: 40px;
+    }
+  
+    .services .col-md-4 {
+      margin-bottom: 40px;
+    }
+  
+    .contact-details {
+      margin-top: 40px;
+    }
+  
+    .social-icons {
+      margin-bottom: 40px;
+    }
+  }
